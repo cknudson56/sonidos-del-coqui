@@ -26,12 +26,15 @@ font-family: 'Open Sans', sans-serif;
 /* -- Universal Styling -- */
 h1 {
   font-family: 'Lily Script One', cursive !important;
+  color: #028090;
 }
 h2 {
   font-family: 'Montserrat', sans-serif !important;
+  color: #028090;
 }
 h3 {
   font-family: 'Montserrat', sans-serif !important;
+  color: #F98857;
 }
 h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important;
