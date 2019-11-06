@@ -6,11 +6,7 @@
 function example_theme_scripts(){
   wp_enqueue_style('skeleton', get_template_directory_uri() . '/css/skeleton.css');
   wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css');
-
   wp_enqueue_style('main-styles', get_stylesheet_uri());
-
-  wp_enqueue_style('script-name', get_template_directory_uri() . '/js/script.js');
-
 }
 
 add_action('wp_enqueue_scripts' , 'example_theme_scripts');
@@ -85,29 +81,12 @@ function custom_menus(){
 }
 add_action('init', 'custom_menus');
 
-
-//Custom Post Type
-function create_post_type(){
-  register_post_type('menu-items',
-    array(
-      'labels' => array(
-        'name' => __('Menu Items'),
-        'singular_name' => __('Menu Item')
-      ),
-      'public' => true,
-      'has_archive' => true,
-      'show_in_menu' => true,
-      'show_in_nav_menus' => true,
-      'show_in_admin_bar' => true,
-      'menu_position' => 1,
-      'can_export' => true,
-      'menu_icon' => 'dashicons-carrot',
-      'supports' => array('title','editor','thumbnail'),
-    )
-  );
-}
-add_action('init', 'create_post_type');
-
-
+//Logo in the header
+$custom_image_header = array(
+  'width' => 150,
+  'height' => 90,
+  'uploads' => true,
+);
+add_theme_support('custom-header', $custom_image_header);
 
 ?>
