@@ -139,3 +139,11 @@ footer {
 footer p {
   color: #FFF7ED;
 }
+ul#menu-footer-menu {
+    list-style-type: none;
+    padding-top: 25px;
+}
+#menu-footer-menu li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif !important;
+}
