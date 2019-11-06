@@ -10,5 +10,25 @@
 */
 
 
-@import url("css/normalize.css");
-@import url("css/skeleton.css");
+/* -- Universal Styling -- */
+.section-margins {
+  margin: 80px 0;
+}
+.top-margin {
+  margin-top: 50px !important;
+}
+.bottom-margin {
+  margin-bottom: 50px !important;
+}
+.head-margin-top {
+	margin-top: 120px !important;
+}
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+.top-padding-paragraph {
+  padding-top: 25px;
+}
