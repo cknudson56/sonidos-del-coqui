@@ -17,7 +17,7 @@ Light Green: #DCF27B
 Dark Green: #8DBAA1
 Off-white: #FFF7ED
 
-font-family: 'Lily Script One', cursive;
+font-family: 'Lily Script One', cursive; letter-spacing: 0.5px;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
@@ -27,6 +27,7 @@ font-family: 'Open Sans', sans-serif;
 h1 {
   font-family: 'Lily Script One', cursive !important;
   color: #028090;
+  letter-spacing: 0.5px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif !important;
@@ -129,4 +130,12 @@ a.mega-menu-link {
 }
 button.mega-toggle-animated.mega-toggle-animated-slider:hover {
   border: 0 !important;
+}
+
+/* -- FOOTER -- */
+footer {
+  background-color: #028090;
+}
+footer p {
+  color: #FFF7ED;
 }
