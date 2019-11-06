@@ -1,0 +1,21 @@
+/*
+  Theme Name: Class Code
+  Theme URI:
+  Author: Christie Knudson
+  Description: Tutorial theme to code during class
+   Version: 1.0
+   License: Open
+   Text Domain: class-code
+
+*/
+
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+.post-feature img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
