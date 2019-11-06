@@ -145,7 +145,7 @@ footer p {
 }
 ul#menu-footer-menu {
     list-style-type: none;
-    padding-top: 5px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
     margin-bottom: 0 !important;
