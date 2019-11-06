@@ -66,6 +66,29 @@ p {
 .top-padding-paragraph {
   padding-top: 25px;
 }
+a {
+    color: #84DCC6;
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:hover {
+    color: #DCF27B;
+}
+button {
+    border: 5px solid #84DCC6;
+    background-color: #84DCC6;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 0;
+    padding: 10px 25px !important;
+    height: auto !important;
+    font-size: 2rem;
+}
+button:hover {
+  border: 5px solid #84DCC6 !important;
+  background-color: white;
+  color: #84DCC6;
+}
 
 
 /* -- HEADER -- */
