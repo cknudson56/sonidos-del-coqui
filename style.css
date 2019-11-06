@@ -24,6 +24,24 @@ font-family: 'Open Sans', sans-serif;
 
 
 /* -- Universal Styling -- */
+h1 {
+  font-family: 'Lily Script One', cursive !important;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+.script {
+  font-family: 'Lily Script One', cursive !important;
+}
+p {
+  font-family: 'Open Sans', sans-serif !important;
+}
 .section-margins {
   margin: 80px 0;
 }
