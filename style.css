@@ -42,6 +42,7 @@ h4, h5, h6 {
 }
 .script {
   font-family: 'Lily Script One', cursive !important;
+  letter-spacing: 0.5px;
 }
 p {
   font-family: 'Open Sans', sans-serif !important;
@@ -137,19 +138,35 @@ footer {
   background-color: #028090;
 }
 footer p {
-  color: #FFF7ED;
+  color: #84DCC6;
   text-align: center;
   font-family: 'Montserrat', sans-serif !important;
   font-size: 1rem;
 }
 ul#menu-footer-menu {
     list-style-type: none;
-    padding-top: 25px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
+    margin-bottom: 0 !important;
 }
 #menu-footer-menu li {
   display: inline;
   font-family: 'Montserrat', sans-serif !important;
-  padding: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.footer-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h3.script.center-text.foot-tit-one {
+    margin-bottom: 0 !important;
+    color: #FFF7ED;
+    padding: 0 10px;
+}
+h3.center-text.foot-tit-two {
+  color: #FFF7ED;
+  padding: 0 10px;
 }
