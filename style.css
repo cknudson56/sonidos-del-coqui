@@ -127,6 +127,7 @@ ul#mega-menu-header-menu {
     margin-top: 10px !important;
 }
 a.mega-menu-link {
+  font-family: 'Montserrat', sans-serif !important;
   transition: 0.2s;
 }
 button.mega-toggle-animated.mega-toggle-animated-slider:hover {
