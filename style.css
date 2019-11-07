@@ -113,14 +113,14 @@ button:hover {
   margin: auto;
 }
 #site-logo {
-	width: 30%;
+	width: 20%;
   padding-left: 20px;
 }
 #logo {
   transition: 0.2s;
 }
 #site-nav {
-  width: 70%;
+  width: 80%;
   transition: 0.2s;
 }
 ul#mega-menu-header-menu {
