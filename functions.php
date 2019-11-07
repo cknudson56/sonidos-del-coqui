@@ -14,17 +14,16 @@ add_action('wp_enqueue_scripts' , 'example_theme_scripts');
 
 //Adds widget areas
 function blank_widgets_init() {
-  //Header widget
+  //Home: Banner Widget
   register_sidebar(array(
-    'name'          => ('Right Header'),
-    'id'            => 'right-header',
-    'description'   => 'Right widget area in the header',
-    'before_widget' => '<div class="widget-header widget-right">',
+    'name'          => ('Banner Home'),
+    'id'            => 'banner-home',
+    'description'   => 'Top banner widget area in home page',
+    'before_widget' => '<div class="widget-home widget-top">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
   ));
-
   //Sidebar Widget
   register_sidebar(array(
     'name'          => ('Sidebar'),
