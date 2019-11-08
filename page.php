@@ -12,6 +12,9 @@
         if(have_posts()){
           while(have_posts()){
             the_post();?>
+            <div class="post-feature">
+              <?php the_post_thumbnail(); ?>
+            </div>
             <h2 class="center-text section-margins"><?php the_title(); ?></h2>
             <?php the_content();
           }
