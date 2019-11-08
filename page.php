@@ -1,21 +1,19 @@
 <?php get_header(); ?>
 
-<div class="container">
-  <div class="row">
-    <div class="twelve columns head-margin-top">
-      <?php
-        if(have_posts()){
-          while(have_posts()){
-            the_post();?>
-            <div class="post-feature">
-              <?php the_post_thumbnail(); ?>
-            </div> <?
-          }
-        }
-      ?>
-    </div>
-  </div>
+<div class="head-margin-top">
+  <?php
+    if(have_posts()){
+      while(have_posts()){
+        the_post();?>
+        <div class="post-feature">
+          <?php the_post_thumbnail(); ?>
+        </div> <?
+      }
+    }
+  ?>
+</div>
 
+<div class="container">
   <div class="row section-margins">
     <div class="twelve columns">
       <?php
