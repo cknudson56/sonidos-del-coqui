@@ -100,6 +100,11 @@ button:hover {
   display:flex;
   justify-content:center;
 }
+.flex-between-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 /* -- HEADER -- */
