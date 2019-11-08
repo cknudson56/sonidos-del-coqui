@@ -91,6 +91,15 @@ button:hover {
   background-color: white;
   color: #84DCC6;
 }
+.flex-center-wrap {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.flex-center {
+  display:flex;
+  justify-content:center;
+}
 
 
 /* -- HEADER -- */
@@ -212,6 +221,14 @@ h3.center-text.foot-tit-two {
 .datepick-one-month {
     padding: 0 10px !important;
 }
+.avail-text {
+  max-width: 600px;
+}
+.calendar-area {
+  background-color:#FFF7ED;
+  padding: 40px 20px 15px 20px;
+}
+
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
