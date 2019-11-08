@@ -233,6 +233,7 @@ h3.center-text.foot-tit-two {
 /* --- Contact --- */
 div.wpcf7 {
     max-width: 500px;
+    padding: 0 20px;
 }
 input[type="email"], input[type="number"], input[type="text"], input[type="tel"], textarea {
   width: 100%;
