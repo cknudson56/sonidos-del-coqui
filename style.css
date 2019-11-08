@@ -243,6 +243,10 @@ div.wpcf7 {
 input[type="email"], input[type="number"], input[type="text"], input[type="tel"], textarea {
   width: 100%;
 }
+.contact-area {
+  background-color:#FFF7ED;
+  padding: 40px 20px;
+}
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
