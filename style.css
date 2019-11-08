@@ -230,6 +230,14 @@ h3.center-text.foot-tit-two {
 }
 
 
+/* --- Contact --- */
+div.wpcf7 {
+    max-width: 500px;
+}
+input[type="email"], input[type="number"], input[type="text"], input[type="tel"], textarea {
+  width: 100%;
+}
+
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
   .amenities-flex-box {
