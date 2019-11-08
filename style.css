@@ -208,6 +208,10 @@ h3.center-text.foot-tit-two {
   font-weight:100;
 }
 
+/* --- AVAILABILITY --- */
+.datepick-one-month {
+    padding: 0 10px !important;
+}
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
