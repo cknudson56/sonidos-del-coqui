@@ -203,6 +203,9 @@ h3.center-text.foot-tit-two {
   max-width: 350px;
   padding-bottom: 15px;
 }
+.amenities-flex-box h5 {
+  margin-bottom: 10px !important;
+}
 
 
 /* --- MEDIA QUERIES --- */
