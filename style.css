@@ -208,7 +208,7 @@ h3.center-text.foot-tit-two {
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
   .amenities-flex-box {
-    max-width: 300px;
+    max-width: 275px;
     padding-bottom: 0;
   }
 }
