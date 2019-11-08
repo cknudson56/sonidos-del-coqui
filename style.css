@@ -180,8 +180,17 @@ h3.center-text.foot-tit-two {
 }
 
 
-
-
+/* --- ABOUT --- */
+.prop-border {
+  border-bottom: 2px solid #84DCC6;
+  padding:25px;
+}
+.prop-details {
+  display:flex;
+  justify-content:space-between;
+  max-width:750px;
+  margin:auto;
+}
 
 
 @media (min-width:800px) {
