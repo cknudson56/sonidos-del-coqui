@@ -301,6 +301,9 @@ input[type="submit"]:hover {
   #site-nav {
     padding-top: 25px;
   }
+  .active-box p {
+    padding-right: 40px;
+  }
 }
 @media (min-width: 1100px) {
   #amenities-flex {
@@ -309,7 +312,7 @@ input[type="submit"]:hover {
     margin-right: auto;
   }
 }
-@media (max-width: 801px) {
+@media (max-width: 799px) {
   .active-box .eight.columns, .active-box .four.columns {
     width: 100% !important;
   }
