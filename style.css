@@ -112,6 +112,13 @@ button:hover {
 .awb-img {
   height: 200px;
 }
+form.post-password-form p {
+    display: flex;
+    justify-content: center;
+}
+.post-password-form input[type="submit"] {
+  margin-left: 30px;
+}
 
 
 /* -- HEADER -- */
