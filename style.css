@@ -254,6 +254,19 @@ input[type="email"], input[type="number"], input[type="text"], input[type="tel"]
 div.wpcf7-mail-sent-ok {
     border: 2px solid #84DCC6 !important;
 }
+label, legend {
+    font-weight: 400 !important;
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    border-radius: 0 !important;
+}
+.button, input[type="submit"], input[type="reset"], input[type="button"] {
+    color: #028090 !important;
+    font-size: 1.4rem !important;
+    background-color: white !important;
+    border-radius: 0 !important;
+    border: 1px solid #028090 !important;
+}
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 620px) {
