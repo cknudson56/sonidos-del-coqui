@@ -226,6 +226,19 @@ h3.center-text.foot-tit-two {
   font-weight:100;
 }
 
+
+/* --- THINGS TO DO --- */
+.active-box.border {
+    border-bottom: 2px solid #DCF27B;
+}
+.active-box {
+    padding: 50px 0 30px 0;
+}
+.active-box h3, .active-box h4, .active-box h5 {
+  text-align: center;
+  width: 100%;
+}
+
 /* --- AVAILABILITY --- */
 .datepick-one-month {
     padding: 0 10px !important;
