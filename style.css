@@ -304,6 +304,15 @@ input[type="submit"]:hover {
   .active-box p {
     padding-right: 40px;
   }
+  .section-margins {
+    margin: 75px 0;
+  }
+  .top-margin {
+    margin-top: 75px !important;
+  }
+  .bottom-margin {
+    margin-bottom: 75px !important;
+  }
 }
 @media (min-width: 1100px) {
   #amenities-flex {
