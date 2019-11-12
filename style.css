@@ -236,7 +236,9 @@ h3.center-text.foot-tit-two {
 }
 .active-box h3, .active-box h4, .active-box h5 {
   text-align: center;
-  width: 100%;
+}
+.active-box .four.columns {
+  width: 100% !important;
 }
 
 /* --- AVAILABILITY --- */
@@ -303,6 +305,12 @@ input[type="submit"]:hover {
 @media (min-width:800px) {
   #site-nav {
     padding-top: 25px;
+  }
+  .active-box h3, .active-box h4, .active-box h5 {
+    text-align: left;
+  }
+  .active-box .four.columns {
+    width: 30.6666666667% !important;
   }
 }
 @media (min-width: 1100px) {
