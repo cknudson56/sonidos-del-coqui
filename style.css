@@ -119,6 +119,9 @@ form.post-password-form p {
 .post-password-form input[type="submit"] {
   margin-left: 30px;
 }
+form.post-password-form {
+    margin-bottom: 50vh;
+}
 
 
 /* -- HEADER -- */
