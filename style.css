@@ -262,6 +262,12 @@ h3.center-text.foot-tit-two {
 }
 
 
+/* --- 404 --- */
+.not-found {
+  margin-bottom: 50vh;
+}
+
+
 /* --- Contact --- */
 div.wpcf7 {
     max-width: 500px;
