@@ -273,6 +273,10 @@ h3.center-text.foot-tit-two {
   color: white;
 }
 
+.guest-a:hover {
+  color: #84DCC6;
+}
+
 .guest-a a:hover {
   color: #84DCC6;
 }
