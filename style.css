@@ -264,7 +264,7 @@ h3.center-text.foot-tit-two {
 
 /* --- 404 --- */
 .not-found {
-  margin-bottom: 70vh;
+  margin-bottom: 60vh !important;
 }
 
 
