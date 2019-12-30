@@ -105,6 +105,11 @@ button:hover {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .post-feature img {
     max-width: 100%;
     height: auto;
