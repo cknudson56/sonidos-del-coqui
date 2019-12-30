@@ -269,17 +269,14 @@ h3.center-text.foot-tit-two {
 
 
 /* --- Guest Information --- */
-.guest-a a {
-  color: white;
+.guest-a {
+  color: white !important;
 }
 
 .guest-a:hover {
-  color: #84DCC6;
+  color: #84DCC6 !important;
 }
 
-.guest-a a:hover {
-  color: #84DCC6;
-}
 
 /* --- Contact --- */
 div.wpcf7 {
