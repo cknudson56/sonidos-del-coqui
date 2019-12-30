@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-<div class="row">
+<div class="row  head-margin-top">
   <div class="twelve columns not-found">
     <h2>Page Not Found</h2>
     <h3>This usually never happens.</h3>
